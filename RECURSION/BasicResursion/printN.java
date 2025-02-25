@@ -15,6 +15,7 @@
 // the end lessly problem is called stackover flow calling the function again and again
 
 
+
 public class printN {
    static int count=5;
     public static void main (String [] args){
@@ -22,7 +23,7 @@ public class printN {
       printNum();
     }
     public static void printNum(){
-      if(count==0){
+      if(count==0){ // base condition
         return;
       }
        System.out.println("1");
