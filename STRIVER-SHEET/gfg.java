@@ -1,6 +1,6 @@
 // 19-07-2024
 ///Adobe gfg coding question 1
-/// Always remember madarchod ko time limit exceeded dena hi hota hai isliye always go for appropriate optimized approach 
+/// Always remember there will  time limit exceeded dena hi hota hai isliye always go for appropriate optimized approach 
 
 // making subarrays of multiple questions
 
