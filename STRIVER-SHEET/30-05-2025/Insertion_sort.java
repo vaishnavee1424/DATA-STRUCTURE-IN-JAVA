@@ -26,11 +26,11 @@ public class Insertion_sort {
         System.out.println(Arrays.toString(nums));
     }
     public static void Insertion_sorting(int[] nums ){
-    for(int i=1;i<nums.length;i++){
-        if(nums[i]<nums[i-1]){
-    for(int j=i; j>=0 ;j--){
-        swap( nums, i,i-1);
-        }
+    for(int i=0;i<nums.length;i++){
+        int j=i;
+        while(j>0 && nums[j]<nums[j-1]){
+            swap(nums,j,j-1);
+            j--;
         }
     }
     }
